@@ -37,17 +37,41 @@
     align-items: center;
 }
 
-.pesquisar input {
-
-}
-
 .user {
     display: flex;
     flex-direction: row;
 }
 
+.dados-user {
+    padding-left: 10px;
+}
+
 .nome-user {
     display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.views, .view-up-down {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-up-down {
+    padding-left: 10px;
+}
+
+.h5-you {
+    opacity: 0.5;
+    padding-left: 10px;
+}
+
+.views-user {
+    opacity: 0.7;
+}
+
+.view-up-down {
+    color: #02B033;
 }
 
 .other {
