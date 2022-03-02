@@ -1,19 +1,36 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
+/* 
+  Gradiente botoes
+  background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+border-radius: 4px 4px 0px 0px;
+  */
 :root {
   --cor-principal: #0275b1;
   --font-size-titulo: 18px;
   --font-size-subtitulo: 14px;
   --font-size-texto: 10px;
-
-  /* 
-  Gradiente botoes
-  background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
-border-radius: 4px 4px 0px 0px;
-  */
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .titulo {
   color: #181818;
   font-size: var(--font-size-titulo);
+}
+
+.botao-background {
+  color: #fff;
+  width: 170px;
+  height: 32px;
+  border-radius: 4px;
+  text-align: center;
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+}
+.botao-borda {
+  background-color: #fff;
+  color: var(--cor-principal);
+  border: 1px solid var(--cor-principal);
+  width: 170px;
+  height: 32px;
+  border-radius: 4px;
 }
