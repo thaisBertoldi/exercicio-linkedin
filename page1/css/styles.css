@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 47px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feed, .network, .jobs, .chat, .notices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.chat {
+    position: relative;
+}
+
+.chat::after {
+    content: url(../img/img-header/menu-chat-numero.png);
+    position: absolute;
+    left: 50px;
+    top: -8px;
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+.nome-user {
+    display: flex;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+}

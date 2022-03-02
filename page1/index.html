@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/pattern.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
 
@@ -19,9 +20,9 @@
             <div class="logo-linkedin">
                 <img src="./img/img-header/logo.png" alt="logo-linkedin">
             </div>
-            <div class="nav-bar">
+            <div>
                 <nav>
-                    <ul>
+                    <ul class="nav-bar">
                         <div class="feed">
                             <img src="./img/img-header/menu-feed.png" alt="">
                             <li><a href="#">Feed</a></li>
@@ -35,7 +36,7 @@
                             <li><a href="#">Jobs</a></li>
                         </div>
                         <div class="chat">
-                            <img src="./img/img-header/menu-chat-numero.png" alt="">
+                            <!-- <img src="./img/img-header/menu-chat-numero.png" alt=""> -->
                             <img src="./img/img-header/menu-chat.png" alt="">
                             <li><a href="#">Chat</a></li>
                         </div>
@@ -47,7 +48,8 @@
                 </nav>
             </div>
             <div class="pesquisar">
-                <label placeholder="search"><img src="./img/img-header/lupa-pesquisa.png" alt=""></label>
+                <img src="./img/img-header/lupa-pesquisa.png" alt="">
+                <input placeholder="search"></input>
             </div>
             <div class="user">
                 <div class="foto-user">
@@ -55,8 +57,6 @@
                 </div>
                 <div class="nome-user">
                     <h5>D. KARGAEV</h5>
-                </div>
-                <div class="you-user">
                     <h5>YOU</h5>
                 </div>
                 <div class="views-user">
@@ -69,7 +69,9 @@
             </div>
             <div class="other">
                 <img src="./img/img-header/others.png" alt="">
-                <h5>OTHER</h5>
+                <ul>
+                    <li><a href="#">Other</a></li>
+                </ul>
             </div>
         </div>
     </header>
