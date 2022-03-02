@@ -1,7 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 17px 47px;
+    padding: 17px 40px;
+    align-items: center;
 }
 
 .nav-bar {
@@ -10,9 +11,11 @@
     justify-content: space-between;
 }
 
-.feed, .network, .jobs, .chat, .notices {
+.menu-icone {
     display: flex;
     flex-direction: column;
+    column-gap: 10px;
+    row-gap: 5px;
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
@@ -34,6 +37,10 @@
     align-items: center;
 }
 
+.pesquisar input {
+
+}
+
 .user {
     display: flex;
     flex-direction: row;
@@ -46,4 +53,5 @@
 .other {
     display: flex;
     flex-direction: column;
+    column-gap: 20px;
 }
