@@ -1,15 +1,36 @@
+@media screen and (min-width: 1441px) {
+  .header {
+    justify-content: space-between;
+  }
+  .header .logo-linkedin,
+  .header .menu,
+  .header .pesquisar,
+  .header .user,
+  .header .other,
+  .header .vazio {
+    border: none;
+  }
+}
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   height: 80px;
 }
+
 .logo-linkedin {
-  padding: 17px 43px 17px 40px;
+  width: 131px;
+  height: 80px;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-right: 1px solid #f4f4f4;
 }
+.imagem-linkedin {
+  width: 46px;
+  height: 46px;
+}
+
 .menu {
   border-right: 1px solid #f4f4f4;
   height: 80px;
@@ -18,20 +39,43 @@
   justify-content: center;
 }
 .nav-bar {
-  /* height: 80px; */
+  margin-left: 13px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  width: 450px;
 }
 
 .menu-icone {
   display: flex;
   flex-direction: column;
+  width: 90px;
+  height: 80px;
   column-gap: 10px;
   row-gap: 5px;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 30px;
+  justify-content: center;
+}
+.icone {
+  width: 24px;
+  height: 24px;
+}
+.pesquisar {
+  height: 80px;
+  width: 367px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  border-right: 1px solid #f4f4f4;
+}
+.icone-pesquisar {
+  width: 24px;
+  height: 24px;
+}
+.input {
+  outline: none;
+  height: 95%;
+  width: 100%;
 }
 
 .chat {
@@ -41,20 +85,10 @@
 .chat::after {
   content: url(../img/img-header/menu-chat-numero.png);
   position: absolute;
-  left: 50px;
-  top: -8px;
+  right: 26px;
+  top: 10px;
 }
 
-.pesquisar {
-  padding-left: 30px;
-  display: flex;
-  align-items: center;
-  width: 367px;
-}
-.icone-pesquisar {
-  width: 24px;
-  height: 24px;
-}
 .user {
   border-left: 1px solid #f4f4f4;
   display: grid;
@@ -82,7 +116,9 @@
 .view-up-down {
   padding-left: 10px;
 }
-
+.view-up-down p {
+  margin-right: 4px;
+}
 .h5-you {
   opacity: 0.5;
   padding-left: 10px;
@@ -118,7 +154,8 @@
   height: 80px;
   width: auto;
 }
-/* --- Footer --- */
+
+/* --- Footer --- 
 /* 
 .azul {
   color: #0e76a8;
