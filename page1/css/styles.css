@@ -79,3 +79,23 @@
     flex-direction: column;
     column-gap: 20px;
 }
+
+/* --- Footer --- */ 
+
+.azul {
+    color: #0e76a8;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-linkedin-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-navigation {
+    display: flex;
+}
