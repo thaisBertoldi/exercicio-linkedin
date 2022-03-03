@@ -11,16 +11,24 @@ border-radius: 4px 4px 0px 0px;
 }
 .container {
   max-width: 1440px;
-  background-color: red;
-  margin: 40px 130px 40px 130px;
+  margin: 0px 130px 40px 130px;
 }
 body {
   font-family: "Roboto", sans-serif;
 }
 
+.titulo-negrito {
+  color: #181818;
+  font-size: var(--font-size-titulo);
+  font-weight: bold;
+}
 .titulo {
   color: #181818;
   font-size: var(--font-size-titulo);
+}
+.paragrafo {
+  color: #181818;
+  font-size: var(--font-size-subtitulo);
 }
 
 .botao-background {
