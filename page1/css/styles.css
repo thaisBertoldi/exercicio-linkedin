@@ -109,6 +109,11 @@
 .nome-user {
   display: flex;
   padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.menu-icone a {
+  font-weight: bold;
 }
 
 .views,
@@ -142,6 +147,7 @@
   justify-content: center;
   border-left: 1px solid #f4f4f4;
   width: 130px;
+  font-weight: bold;
 }
 .other-imagem {
   padding: 0px 20px;
@@ -253,6 +259,7 @@
   content: url("../img/logo-linkedin-dourado.png");
   margin-left: 8px;
 }
+
 .objetivo-profissional {
   padding: 3px 0px;
 }
@@ -262,6 +269,10 @@
 .conexoes {
   display: flex;
   column-gap: 10px;
+}
+
+.botao-borda {
+  font-weight: bold;
 }
 
 /* about */
@@ -277,6 +288,7 @@
   display: flex;
   justify-content: start;
   align-items: flex-end;
+  font-weight: bold;
 }
 .informacoes-botoes button {
   background-color: #fff;
@@ -575,12 +587,12 @@ footer h5 {
 
 .question-button::after {
   content: url(../img/img-footer/question.png);
-  padding-left: 57px;
+  padding-left: 45px;
 }
 
 .settings-button::after {
   content: url(../img/img-footer/settings.png);
-  padding-left: 70px;
+  padding-left: 63px;
 }
 
 .buttons {
@@ -609,13 +621,14 @@ footer h5 {
   flex-direction: column;
   row-gap: 40px;
   background-color: #FFFFFF;
-  padding: 25px 29px 31px 30px;
-  width: 290px;
-  height: 360px;
+  padding: 0 29px 30px 30px;
+  width: 300px;
+  height: 400px;
   top: 120px;
   left: 1020px;
   border-radius: 4px;
-  margin-bottom: 31px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .titulo-dashboard {
@@ -624,6 +637,7 @@ footer h5 {
   font-size: 12px;
   font-weight: bold;
   padding-bottom: 20px;
+  padding-top: 25px;
   border-bottom: 1px solid #F4F4F4;
 }
 
@@ -662,7 +676,7 @@ footer h5 {
   row-gap: 40px;
   background-color: #FFFFFF;
   padding: 25px 29px 31px 30px;
-  width: 290px;
+  width: 300px;
   height: 427px;
   top: 500px;
   left: 1020px;
@@ -718,9 +732,9 @@ footer h5 {
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
-  padding: 25px 29px 31px 30px;
-  width: 290px;
-  height: 427px;
+  padding: 25px 0;
+  width: 300px;
+  height: 338px;
   top: 500px;
   left: 1020px;
   border-radius: 4px;
@@ -733,6 +747,7 @@ footer h5 {
   font-size: 12px;
   font-weight: bold;
   padding-bottom: 20px;
+  padding-left: 30px;
   border-bottom: 1px solid #F4F4F4;
 }
 
@@ -755,11 +770,19 @@ footer h5 {
   color: #0275B1;
   font-size: 12px;
   font-weight: bold;
-  padding: 20px 85px 28px 30px;
+  padding: 30px 85px 28px 30px;
 }
 
 .dados-video {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
+}
+
+/* --- Colunas do Site --- */ 
+
+.pagina-colunas {
+  display: flex;
+  background-color: #f7f9fb;
+  padding-top: 40px;
 }
