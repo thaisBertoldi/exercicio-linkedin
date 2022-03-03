@@ -11,10 +11,13 @@
     border: none;
   }
 }
+.background-main {
+  background-color: #f7f9fb;
+  padding-top: 40px;
+}
 .header {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   height: 80px;
 }
 
@@ -61,7 +64,7 @@
 }
 .pesquisar {
   height: 80px;
-  width: 367px;
+  width: 365px;
   margin-left: 30px;
   display: flex;
   align-items: center;
@@ -155,6 +158,334 @@
   width: auto;
 }
 
+/* perfil */
+.perfil {
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: 180px 180px;
+  max-width: 850px;
+}
+.perfil-capa {
+  background-image: url("../img/home-capa/capa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icones-capa {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px 0px 30px;
+}
+.background-upload {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.perfil-capa .icone {
+  width: 16px;
+  height: 16px;
+}
+.icones-editar {
+  display: flex;
+  align-items: center;
+}
+.editar-profile {
+  width: 132px;
+  height: 36px;
+  background-color: #fff;
+  column-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.editar-profile .icone {
+  width: 16px;
+  height: 16px;
+}
+.editar-profile-opcoes {
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+.editar-profile-opcoes .icone {
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+
+.informacoes-perfil {
+  display: grid;
+  grid-template-columns: 170px auto;
+  padding-left: 25px;
+}
+.foto-perfil {
+  margin-top: -20px;
+}
+.dados-perfil {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.nome-localizacao {
+  display: flex;
+  justify-content: space-between;
+}
+.nome-localizacao {
+  margin-right: 25px;
+}
+.nome-localizacao .titulo::before {
+  content: url("../img/seta-localizacao.png");
+  margin-right: 9px;
+}
+.nome-localizacao .titulo-negrito::after {
+  content: url("../img/logo-linkedin-dourado.png");
+  margin-left: 8px;
+}
+.objetivo-profissional {
+  padding: 3px 0px;
+}
+.texto-profissional {
+  font-size: var(--font-size-subtitulo);
+}
+.conexoes {
+  display: flex;
+  column-gap: 10px;
+}
+
+/* about */
+
+.informacoes {
+  margin-top: 20px;
+  display: grid;
+  max-width: 850px;
+  grid-template-rows: auto auto;
+}
+.informacoes-botoes {
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+.informacoes-botoes button {
+  background-color: #fff;
+  width: 240px;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+}
+.informacoes-botoes .botao-ativo {
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  color: #fff;
+  width: 240px;
+  height: 50px;
+  border: 1px solid #0077b5;
+}
+.informacoes-vazio {
+  background: linear-gradient(
+    180deg,
+    rgba(241, 244, 248, 0.8) 0%,
+    rgba(241, 244, 248, 0) 100%
+  );
+  height: 50px;
+}
+.informacoes-texto {
+  background: #ffffff;
+  /* Block shadow */
+  box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+  border-radius: 4px;
+}
+.informacoes-conteudo-texto {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  margin: 10px 30px 35px 30px;
+}
+/* .informacoes-conteudo-texto .paragrafo {
+  max-width: 740px;
+} */
+.link-informacoes {
+  color: var(--cor-principal);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* PROJETOS */
+.projetos {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 30px;
+  max-width: 850px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.projeto-titulos {
+  display: flex;
+  column-gap: 15px;
+  margin-bottom: 25px;
+}
+.projeto-titulos .titulo {
+  color: #747474;
+}
+.projeto-galeria {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto auto;
+}
+.produtos-galeria .paragrafo {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.produtos-galeria p {
+  font-size: 10px;
+  color: #181818;
+}
+.projeto-botao-show {
+  margin-top: 25px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--cor-principal);
+}
+/* skills */
+.skills {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 30px;
+  max-width: 850px;
+  margin-top: 20px;
+  background-color: #fff;
+  row-gap: 25px;
+}
+.conteudo-galeria-skills {
+  display: flex;
+  justify-content: space-between;
+}
+.galeria-skills {
+  width: 250px;
+  height: 80px;
+  display: grid;
+  grid-template-rows: auto auto;
+  padding: 14px 20px 0px 20px;
+  border: 1px solid #f4f4f4;
+}
+.texto-galeria-skills {
+  display: flex;
+  justify-content: space-between;
+}
+.texto-galeria-skills h4 {
+  font-size: var(--font-size-subtitulo);
+  font-weight: bold;
+  color: #181818;
+}
+.texto-galeria-skills p {
+  font-weight: bold;
+  color: var(--cor-principal);
+  font-size: var(--font-size-subtitulo);
+}
+
+/* EXPERIENCIA */
+
+.experiencia {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 30px;
+  max-width: 850px;
+  margin-top: 20px;
+  background-color: #fff;
+  row-gap: 25px;
+}
+.empresas {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.linha-empresa {
+  height: 1px;
+  background-color: #f4f4f4;
+}
+.informacoes-cargo {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.informacoes-cargo .paragrafo {
+  font-weight: bold;
+  font-size: 18px;
+}
+.informacoes-tempo {
+  display: grid;
+  row-gap: 5px;
+}
+.tempo-trabalho {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
+}
+.informacoes-tempo .self {
+  font-weight: bold;
+}
+.tempo-trabalho p {
+  font-size: var(--font-size-texto);
+}
+.data-trabalho {
+  color: var(--cor-principal);
+  font-weight: bold;
+}
+.descricao-cargo {
+  font-size: 10px;
+}
+
+/* EDUCATION */
+.educacao {
+  display: grid;
+  grid-template-rows: auto auto;
+  padding: 30px;
+  max-width: 850px;
+  margin-top: 20px;
+  background-color: #fff;
+  row-gap: 25px;
+}
+.faculdade {
+  display: grid;
+  grid-template-columns: 54px auto;
+}
+.informacoes-faculdade {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 32px 16px;
+}
+.informacoes-faculdade .paragrafo {
+  font-weight: bold;
+  font-size: 18px;
+}
+.nome-faculdade {
+  margin-bottom: 10px;
+}
+.nome-do-curso {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.duracao-curso {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.adicional-curso {
+  font-size: 10px;
+}
 /* --- Footer --- */
 
 .azul {
