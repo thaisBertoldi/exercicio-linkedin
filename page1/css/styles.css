@@ -119,7 +119,7 @@
   width: auto;
 }
 /* --- Footer --- */
-
+/* 
 .azul {
   color: #0e76a8;
 }
@@ -127,13 +127,73 @@
 footer {
   display: flex;
   justify-content: space-between;
-}
+  background-color: #F7F9FB;
+  /* align-items: center; */
+/* }
 
 .logo-linkedin-footer {
   display: flex;
   flex-direction: column;
+  row-gap: 12px;
+  padding: 30px 0 139px 130px;
+  align-items: flex-start;
+  font-weight: bold;
 }
 
 .menu-navigation {
   display: flex;
 }
+
+.titulo-navigation {
+  padding-bottom: 30px;
+  padding-top: 35px;
+}
+
+footer h5 {
+  font-weight: bold;
+}
+
+.menu-talent, .menu-community {
+  padding-top: 81px;
+  padding-left: 35px;
+}
+
+.menu-fast-access, .menu-language {
+  padding-top: 35px;
+}
+
+.menu-fast-access h5, .menu-language h5 {
+  padding-bottom: 30px;
+}
+
+.botao-question-setting {
+  border: 1px solid #0275B1;
+  border-radius: 4px;
+  width: 170px;
+  height: 32px;
+  text-align: justify;
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.menu-fast-access {
+  position: relative;
+}
+
+.question-button::after {
+  content: url(../img/img-footer/question.png);
+  position: absolute;
+  right: 10px;
+}
+
+.question-button:hover, .settings-button:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #0275B1;
+}
+
+.settings-button::after {
+  content: url(../img/img-footer/settings.png);
+  position: absolute;
+  right: 10px;
+} */
