@@ -3,6 +3,8 @@
   background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
 border-radius: 4px 4px 0px 0px;
   */
+@import url(//db.onlinewebfonts.com/c/07a38bbad54db72a40b406bed1c72f53?family=Gotham+Pro);
+
 :root {
   --cor-principal: #0275b1;
   --font-size-titulo: 18px;
@@ -11,16 +13,24 @@ border-radius: 4px 4px 0px 0px;
 }
 .container {
   max-width: 1440px;
-  background-color: red;
-  margin: 40px 130px 40px 130px;
+  margin: 0px 40px 40px 130px;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Gotham Pro", sans-serif;
 }
 
+.titulo-negrito {
+  color: #181818;
+  font-size: var(--font-size-titulo);
+  font-weight: bold;
+}
 .titulo {
   color: #181818;
   font-size: var(--font-size-titulo);
+}
+.paragrafo {
+  color: #181818;
+  font-size: var(--font-size-subtitulo);
 }
 
 .botao-background {

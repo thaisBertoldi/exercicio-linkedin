@@ -57,7 +57,9 @@
   row-gap: 5px;
   align-items: center;
   justify-content: center;
+  font-size: 12px;
 }
+
 .icone {
   width: 24px;
   height: 24px;
@@ -110,6 +112,7 @@
   display: flex;
   padding-bottom: 10px;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .menu-icone a {
@@ -148,6 +151,7 @@
   border-left: 1px solid #f4f4f4;
   width: 130px;
   font-weight: bold;
+  font-size: 12px;
 }
 .other-imagem {
   padding: 0px 20px;
