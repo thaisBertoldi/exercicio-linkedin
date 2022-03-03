@@ -1,101 +1,139 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 17px 40px;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
 }
-
+.logo-linkedin {
+  padding: 17px 43px 17px 40px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #f4f4f4;
+}
+.menu {
+  border-right: 1px solid #f4f4f4;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  /* height: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu-icone {
-    display: flex;
-    flex-direction: column;
-    column-gap: 10px;
-    row-gap: 5px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  row-gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
 }
 
 .chat {
-    position: relative;
+  position: relative;
 }
 
 .chat::after {
-    content: url(../img/img-header/menu-chat-numero.png);
-    position: absolute;
-    left: 50px;
-    top: -8px;
+  content: url(../img/img-header/menu-chat-numero.png);
+  position: absolute;
+  left: 50px;
+  top: -8px;
 }
 
 .pesquisar {
-    display: flex;
-    align-items: center;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  width: 367px;
 }
-
+.icone-pesquisar {
+  width: 24px;
+  height: 24px;
+}
 .user {
-    display: flex;
-    flex-direction: row;
+  border-left: 1px solid #f4f4f4;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+  width: 330px;
 }
-
+.foto-user {
+  padding: 18px 15px 20px 30px;
+}
 .dados-user {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .nome-user {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 10px;
+  display: flex;
+  padding-bottom: 10px;
 }
 
-.views, .view-up-down {
-    display: flex;
-    flex-direction: row;
+.views,
+.view-up-down {
+  display: flex;
 }
 
 .view-up-down {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .h5-you {
-    opacity: 0.5;
-    padding-left: 10px;
+  opacity: 0.5;
+  padding-left: 10px;
 }
 
 .views-user {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .view-up-down {
-    color: #02B033;
+  color: #02b033;
 }
 
 .other {
-    display: flex;
-    flex-direction: column;
-    column-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #f4f4f4;
+  width: 130px;
 }
+.other-imagem {
+  padding: 0px 20px;
+  display: grid;
+}
+.other-imagem img {
+  justify-self: center;
+}
+.vazio {
+  border-left: 1px solid #f4f4f4;
 
-/* --- Footer --- */ 
+  background-color: #fff;
+  height: 80px;
+  width: auto;
+}
+/* --- Footer --- */
 
 .azul {
-    color: #0e76a8;
+  color: #0e76a8;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo-linkedin-footer {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-navigation {
-    display: flex;
+  display: flex;
 }
