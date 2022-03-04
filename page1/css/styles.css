@@ -66,7 +66,7 @@
 }
 .pesquisar {
   height: 80px;
-  width: 365px;
+  width: 355px;
   margin-left: 30px;
   display: flex;
   align-items: center;
@@ -551,8 +551,8 @@
 footer {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(#F1F4F8 0%, #F1F4F8 80%);
-  border-top: 1px solid #E7E7E7;
+  background: linear-gradient(#f1f4f8 0%, #f1f4f8 80%);
+  border-top: 1px solid #e7e7e7;
   padding: 0 30px;
 }
 
@@ -587,7 +587,8 @@ footer h5 {
   font-size: 12px;
 }
 
-.menu-talent, .menu-community {
+.menu-talent,
+.menu-community {
   padding-top: 81px;
   padding-right: 35px;
 }
@@ -601,7 +602,8 @@ footer h5 {
   padding-top: 35px;
 }
 
-.menu-fast-access h5, .menu-language h5 {
+.menu-fast-access h5,
+.menu-language h5 {
   padding-bottom: 30px;
   font-size: 12px;
 }
@@ -613,8 +615,9 @@ footer h5 {
   align-items: center;
 }
 
-.question-button, .settings-button {
-  border: 1px solid #0275B1;
+.question-button,
+.settings-button {
+  border: 1px solid #0275b1;
   border-radius: 4px;
   width: 170px;
   height: 32px;
@@ -625,8 +628,8 @@ footer h5 {
 }
 
 .question-button {
-  background-color: #0275B1;
-  color: #FFFFFF;
+  background-color: #0275b1;
+  color: #ffffff;
 }
 
 .question-button::after {
@@ -658,13 +661,13 @@ footer h5 {
 
 /* --- Container lateral --- */
 
-/* --- Dashboard --- */ 
+/* --- Dashboard --- */
 
 .dashboard-container {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 0 29px 30px 30px;
   width: 300px;
   height: 400px;
@@ -682,15 +685,15 @@ footer h5 {
   font-weight: bold;
   padding-bottom: 20px;
   padding-top: 25px;
-  border-bottom: 1px solid #F4F4F4;
+  border-bottom: 1px solid #f4f4f4;
 }
 
 .dashboard-stats {
-  color: #0275B1;
-  border-bottom: 1px solid #0275B1;
+  color: #0275b1;
+  border-bottom: 1px solid #0275b1;
 }
 
-.dados-dashboard{
+.dados-dashboard {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -703,7 +706,7 @@ footer h5 {
 }
 
 .number-dashboard {
-  color: #0275B1;
+  color: #0275b1;
   font-size: 52px;
   font-weight: bold;
 }
@@ -732,12 +735,12 @@ footer h5 {
   font-size: 12px;
   font-weight: bold;
   padding-bottom: 20px;
-  border-bottom: 1px solid #F4F4F4;
+  border-bottom: 1px solid #f4f4f4;
 }
 
 .visitors-all {
-  color: #0275B1;
-  border-bottom: 1px solid #0275B1;
+  color: #0275b1;
+  border-bottom: 1px solid #0275b1;
 }
 
 .visitors-perfil {
@@ -768,12 +771,12 @@ footer h5 {
   font-size: 10px;
 }
 
-/* --- Cursos Indicados --- */ 
+/* --- Cursos Indicados --- */
 
 .cursos-container {
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 25px 0;
   width: 300px;
   height: 338px;
@@ -790,7 +793,7 @@ footer h5 {
   font-weight: bold;
   padding-bottom: 20px;
   padding-left: 30px;
-  border-bottom: 1px solid #F4F4F4;
+  border-bottom: 1px solid #f4f4f4;
 }
 
 .cursos-recomendados {
@@ -809,7 +812,7 @@ footer h5 {
 }
 
 .titulo-all {
-  color: #0275B1;
+  color: #0275b1;
   font-size: 12px;
   font-weight: bold;
   padding: 30px 85px 28px 30px;
@@ -821,7 +824,7 @@ footer h5 {
   row-gap: 5px;
 }
 
-/* --- Colunas do Site --- */ 
+/* --- Colunas do Site --- */
 
 .pagina-colunas {
   display: flex;
