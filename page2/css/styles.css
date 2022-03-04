@@ -11,6 +11,12 @@
     border: none;
   }
 }
+.section-padrao-lateral {
+  display: grid;
+  padding: 25px 30px;
+  background-color: #fff;
+  max-width: 290px;
+}
 .background-main {
   background-color: #f7f9fb;
   padding-top: 40px;
@@ -161,35 +167,34 @@
 }
 .vazio {
   border-left: 1px solid #f4f4f4;
-
   background-color: #fff;
   height: 80px;
   width: auto;
 }
 
-/* --- Colunas do Site --- */ 
+/* --- Colunas do Site --- */
 
 .pagina-colunas {
   display: flex;
-  background-color: #F7F9FB;
+  background-color: #f7f9fb;
   padding-top: 40px;
 }
 
-/* --- new post --- */ 
+/* --- new post --- */
 
 .container-1 {
-  width: 1440px;
-  height: 1950px; /* corrigir tamanho */
+  /* width: 1440px; */
+  /*  height: auto; /* corrigir tamanho */
   margin: 0px 40px 40px 130px;
-  background-color: #F7F9FB;
+  background-color: #f7f9fb;
 }
 
 .menu-esquerda-posts {
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 850px;
-  height: 135px;
+  /*  height: 135px; */
 }
 
 .new-post {
@@ -200,7 +205,7 @@
 .titulo-new-post {
   font-size: 12px;
   font-weight: bold;
-  border-bottom: 1px solid #F4F4F4;
+  border-bottom: 1px solid #f4f4f4;
   padding: 25px 751px 20px 30px;
 }
 
@@ -221,13 +226,13 @@
   align-items: center;
 }
 
-/* --- trending --- */ 
+/* --- trending --- */
 
 .divisoria-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F7F9FB;
+  background-color: #f7f9fb;
   width: 850px;
   height: 80px;
   padding: 35px 0;
@@ -246,18 +251,18 @@
 }
 
 .titulo-e-flecha p:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   width: 320px;
-  border-top: 1px solid #E7E7E7;
+  border-top: 1px solid #e7e7e7;
   margin-top: 4px;
 }
 
 .titulo-e-flecha p:after {
-  content: ' ';
+  content: " ";
   position: absolute;
   width: 340px;
-  border-top: 1px solid #E7E7E7;
+  border-top: 1px solid #e7e7e7;
   margin-top: 4px;
 }
 
@@ -274,12 +279,12 @@
   height: 4px;
 }
 
-/* --- posts --- */ 
+/* --- posts --- */
 
 .post-container {
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 850px;
   height: 285px;
 }
@@ -288,8 +293,8 @@
   display: flex;
   justify-content: space-between;
   padding: 15px 20px 20px 15px;
-  border-bottom: 1px solid #F4F4F4;
-  background-color: #FFFFFF;
+  border-bottom: 1px solid #f4f4f4;
+  background-color: #ffffff;
   margin-top: 20px;
 }
 
@@ -297,8 +302,8 @@
   display: flex;
   flex-direction: column;
   padding: 15px 30px 20px 30px;
-  background-color: #FFFFFF;
-  border: 1px solid #F4F4F4;
+  background-color: #ffffff;
+  border: 1px solid #f4f4f4;
 }
 
 .foto-user-post {
@@ -343,7 +348,7 @@
 }
 
 .read-more {
-  color: #0275B1;
+  color: #0275b1;
   font-size: 12px;
   font-weight: bold;
 }
@@ -353,7 +358,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding-top: 16px;
-  border-top: 1px solid #F4F4F4;
+  border-top: 1px solid #f4f4f4;
 }
 
 .like-comment {
@@ -387,7 +392,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 19px 30px 19px 20px;
-  background-color: #E9F0F8;
+  background-color: #e9f0f8;
   border-radius: 4px;
 }
 
@@ -411,8 +416,8 @@
 footer {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(#F1F4F8 0%, #F1F4F8 80%);
-  border-top: 1px solid #E7E7E7;
+  background: linear-gradient(#f1f4f8 0%, #f1f4f8 80%);
+  border-top: 1px solid #e7e7e7;
   padding: 0 30px;
 }
 
@@ -447,7 +452,8 @@ footer h5 {
   font-size: 12px;
 }
 
-.menu-talent, .menu-community {
+.menu-talent,
+.menu-community {
   padding-top: 81px;
   padding-right: 35px;
 }
@@ -461,7 +467,8 @@ footer h5 {
   padding-top: 35px;
 }
 
-.menu-fast-access h5, .menu-language h5 {
+.menu-fast-access h5,
+.menu-language h5 {
   padding-bottom: 30px;
   font-size: 12px;
 }
@@ -473,8 +480,9 @@ footer h5 {
   align-items: center;
 }
 
-.question-button, .settings-button {
-  border: 1px solid #0275B1;
+.question-button,
+.settings-button {
+  border: 1px solid #0275b1;
   border-radius: 4px;
   width: 170px;
   height: 32px;
@@ -485,8 +493,8 @@ footer h5 {
 }
 
 .question-button {
-  background-color: #0275B1;
-  color: #FFFFFF;
+  background-color: #0275b1;
+  color: #ffffff;
 }
 
 .question-button::after {
@@ -514,4 +522,48 @@ footer h5 {
   text-align: justify;
   padding-left: 15px;
   font-size: 12px;
+}
+
+/* container lateral page02 */
+
+.perfil-lateral {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 290px;
+  background-color: #fff;
+}
+.foto-perfil-lateral {
+  margin-top: -50px;
+}
+.perfil-lateral-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.perfil-lateral-nome {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 10px;
+  padding-left: 29px;
+  padding-right: 21px;
+  padding-bottom: 26px;
+  position: relative;
+}
+.perfil-lateral-info-titulo {
+  font-weight: bold;
+}
+.perfil-lateral-info-titulo::after {
+  position: absolute;
+  margin-left: 4px;
+  content: url(../img/logo-linkedin-dourado.png);
+}
+.perfil-lateral-info-paragrafo {
+  color: #181818;
+  line-height: 1.5;
+  font-size: 10px;
 }
