@@ -74,7 +74,7 @@
 }
 .pesquisar {
   height: 80px;
-  width: 365px;
+  width: 355px;
   margin-left: 30px;
   display: flex;
   align-items: center;
@@ -340,12 +340,15 @@
 .texto-post {
   display: flex;
   flex-direction: column;
-  row-gap: 15px;
+  row-gap: 10px;
   font-size: 14px;
   text-align: left;
   padding-top: 15px;
   padding-bottom: 20px;
   line-height: 1.5;
+}
+.titulo-post {
+  margin-bottom: 5px;
 }
 
 .text-gradient {
