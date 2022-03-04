@@ -334,6 +334,14 @@
   line-height: 1.5;
 }
 
+.text-gradient {
+  background-image: linear-gradient(to bottom, black, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
 .read-more {
   color: #0275B1;
   font-size: 12px;
