@@ -255,13 +255,17 @@
 .nome-localizacao {
   margin-right: 25px;
 }
-.nome-localizacao .titulo::before {
+.nome-localizacao .titulo-cidade::before {
   content: url("../img/seta-localizacao.png");
   margin-right: 9px;
 }
-.nome-localizacao .titulo-negrito::after {
+.nome-localizacao .titulo-cidade-negrito::after {
   content: url("../img/logo-linkedin-dourado.png");
   margin-left: 8px;
+}
+
+.titulo-cidade {
+  font-size: 12px;
 }
 
 .objetivo-profissional {
@@ -269,6 +273,7 @@
 }
 .texto-profissional {
   font-size: var(--font-size-subtitulo);
+  line-height: 1.5;
 }
 .conexoes {
   display: flex;
@@ -277,6 +282,11 @@
 
 .botao-borda {
   font-weight: bold;
+  font-size: 12px;
+}
+
+.botao-background {
+  font-size: 12px;
 }
 
 /* about */
@@ -293,6 +303,7 @@
   justify-content: start;
   align-items: flex-end;
   font-weight: bold;
+  font-size: 12px;
 }
 .informacoes-botoes button {
   background-color: #fff;
@@ -350,10 +361,16 @@
   display: flex;
   column-gap: 15px;
   margin-bottom: 25px;
+  align-items: center;
 }
-.projeto-titulos .titulo {
+.projeto-titulos .titulo-numeros {
   color: #747474;
 }
+
+.titulo-numeros {
+  font-size: 18px;
+}
+
 .projeto-galeria {
   display: grid;
   justify-content: space-between;
@@ -364,6 +381,11 @@
   margin-bottom: 5px;
   font-weight: bold;
 }
+
+.paragrafo {
+  line-height: 1.5;
+}
+
 .produtos-galeria p {
   font-size: 10px;
   color: #181818;
@@ -437,10 +459,20 @@
   flex-direction: column;
   row-gap: 10px;
 }
-.informacoes-cargo .paragrafo {
+.informacoes-cargo {
   font-weight: bold;
   font-size: 18px;
 }
+
+.paragrafo-freelance {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.partes-experience-opacidade {
+  opacity: 0.7;
+}
+
 .informacoes-tempo {
   display: grid;
   row-gap: 5px;
@@ -451,11 +483,12 @@
   grid-template-columns: auto auto;
   column-gap: 30px;
 }
-.informacoes-tempo .self {
+.informacoes-tempo {
   font-weight: bold;
 }
 .tempo-trabalho p {
   font-size: var(--font-size-texto);
+  font-weight: normal;
 }
 .data-trabalho {
   color: var(--cor-principal);
@@ -463,6 +496,8 @@
 }
 .descricao-cargo {
   font-size: 10px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 /* EDUCATION */
@@ -490,17 +525,22 @@
 }
 .nome-faculdade {
   margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
 .nome-do-curso {
   font-size: 10px;
   margin-bottom: 5px;
+  margin-top: 10px;
 }
 .duracao-curso {
   font-size: 10px;
   margin-bottom: 10px;
+  margin-top: 5px;
 }
 .adicional-curso {
   font-size: 10px;
+  margin-top: 10px;
 }
 /* --- Footer --- */
 
@@ -677,13 +717,11 @@ footer h5 {
 .visitors-container {
   display: flex;
   flex-direction: column;
-  row-gap: 40px;
+  row-gap: 20px;
   background-color: #FFFFFF;
   padding: 25px 29px 31px 30px;
   width: 300px;
   height: 427px;
-  top: 500px;
-  left: 1020px;
   border-radius: 4px;
   margin-bottom: 31px;
 }
