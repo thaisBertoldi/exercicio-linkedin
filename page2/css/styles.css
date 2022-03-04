@@ -171,16 +171,17 @@
 
 .pagina-colunas {
   display: flex;
-  background-color: #f7f9fb;
+  background-color: #F7F9FB;
   padding-top: 40px;
 }
 
 /* --- new post --- */ 
 
 .container-1 {
-  max-width: 1440px;
+  width: 1440px;
+  height: 1950px; /* corrigir tamanho */
   margin: 0px 40px 40px 130px;
-  background-color: #f7f9fb;
+  background-color: #F7F9FB;
 }
 
 .menu-esquerda-posts {
@@ -226,7 +227,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #E5E5E5;
+  background-color: #F7F9FB;
   width: 850px;
   height: 80px;
   padding: 35px 0;
@@ -247,21 +248,21 @@
 .titulo-e-flecha p:before {
   content: ' ';
   position: absolute;
-  width: 340px;
-  border-top: 1px solid #FFFFFF;
+  width: 320px;
+  border-top: 1px solid #E7E7E7;
   margin-top: 4px;
 }
 
 .titulo-e-flecha p:after {
   content: ' ';
   position: absolute;
-  width: 390px;
-  border-top: 1px solid #FFFFFF;
+  width: 340px;
+  border-top: 1px solid #E7E7E7;
   margin-top: 4px;
 }
 
 .titulo-e-flecha p:before {
-  margin-left: -350px;
+  margin-left: -330px;
 }
 
 .titulo-e-flecha p:after {
@@ -278,7 +279,7 @@
 .post-container {
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;;
+  background-color: #FFFFFF;
   width: 850px;
   height: 285px;
 }
@@ -288,12 +289,16 @@
   justify-content: space-between;
   padding: 15px 20px 20px 15px;
   border-bottom: 1px solid #F4F4F4;
+  background-color: #FFFFFF;
+  margin-top: 20px;
 }
 
 .post-conteudo {
   display: flex;
   flex-direction: column;
-  padding-top: 15px;
+  padding: 15px 30px 20px 30px;
+  background-color: #FFFFFF;
+  border: 1px solid #F4F4F4;
 }
 
 .foto-user-post {
@@ -301,7 +306,6 @@
   flex-direction: row;
   column-gap: 15px;
   align-items: center;
-  padding-left: 30px;
 }
 
 .user-post {
@@ -324,25 +328,24 @@
   flex-direction: column;
   row-gap: 15px;
   font-size: 14px;
-  padding-left: 30px;
-  text-align: justify;
+  text-align: left;
   padding-top: 15px;
+  padding-bottom: 20px;
+  line-height: 1.5;
 }
 
 .read-more {
   color: #0275B1;
   font-size: 12px;
   font-weight: bold;
-  border-bottom: 1px solid #F4F4F4;
-  padding-bottom: 20px;
 }
 
 .interacao-post {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 30px;
   padding-top: 16px;
+  border-top: 1px solid #F4F4F4;
 }
 
 .like-comment {
@@ -362,6 +365,33 @@
 .font-interacao-p {
   font-weight: bold;
   font-size: 12px;
+}
+
+.primeira-parte-downloads {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.arquivos-pdf-post3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 30px 19px 20px;
+  background-color: #E9F0F8;
+  border-radius: 4px;
+}
+
+.informacoes-downloads {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.titulo-informacao-download {
+  font-weight: bold;
+  font-size: 14px;
 }
 
 /* --- Footer --- */
