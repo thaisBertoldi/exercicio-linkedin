@@ -265,7 +265,7 @@
 .titulo-e-flecha p:after {
   content: " ";
   position: absolute;
-  width: 340px;
+  width: 365px;
   border-top: 1px solid #e7e7e7;
   margin-top: 4px;
 }
