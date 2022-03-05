@@ -6,4 +6,14 @@
     .menu-hamburguer {
         display: block;
     }
+
+    .pagina-colunas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-navigation, .menu-footer {
+        display: none;
+    }
 }
