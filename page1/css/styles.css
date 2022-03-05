@@ -60,6 +60,10 @@
   font-size: 12px;
 }
 
+.menu-hamburguer {
+  display: none;
+}
+
 .icone {
   width: 24px;
   height: 24px;
