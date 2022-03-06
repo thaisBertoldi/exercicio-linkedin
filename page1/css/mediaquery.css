@@ -17,6 +17,20 @@
     .menu-navigation, .menu-footer {
         display: none;
     }
+
+    .coluna-lateral {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+    }
+
+    .visitors-container {
+        margin-top: 40px;
+    }
+
+    .dashboard-container {
+        height: 427px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -59,19 +73,7 @@
         width: 100%;
     }
 
-    .coluna-lateral {
-        display: grid;
-        grid-template-columns: auto auto;
-        column-gap: 20px;
-    }
 
-    .visitors-container {
-        margin-top: 40px;
-    }
-
-    .dashboard-container {
-        height: 427px;
-    }
 }
 
 @media (max-width: 576px) {
