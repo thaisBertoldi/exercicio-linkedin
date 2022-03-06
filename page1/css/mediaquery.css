@@ -55,6 +55,7 @@
     .coluna-lateral {
         display: grid;
         grid-template-columns: auto auto;
+        column-gap: 20px;
     }
 
     .visitors-container {
@@ -63,5 +64,43 @@
 
     .dashboard-container {
         height: 427px;
+    }
+}
+
+@media (max-width: 576px) {
+    .other-imagem, 
+    .vazio, 
+    .menu-language, 
+    .icones-capa {
+        display: none;
+    }
+
+    .pagina-colunas, .background-main {
+        margin: 0;
+        padding: 0;
+    }
+
+    .perfil {
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 100%;
+    }
+
+    .informacoes-perfil {
+        display: flex;
+    }
+
+    .coluna-lateral {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 20px;
+    }
+
+    .projeto-galeria {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+        align-items: center;
+        justify-content: center;
     }
 }
