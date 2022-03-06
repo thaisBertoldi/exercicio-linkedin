@@ -17,3 +17,51 @@
         display: none;
     }
 }
+
+@media (max-width: 768px) {
+    .dados-user,
+    .input,
+    .editar-profile, 
+    .editar-profile-opcoes, 
+    .titulo-cidade {
+        display: none;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 85%;
+    }
+
+    .background-main {
+        margin: 0;
+        padding: 0;
+    }
+
+    .projeto-galeria {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .conteudo-galeria-skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .informacoes-botoes button {
+        width: 100%;
+    }
+
+    .coluna-lateral {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .visitors-container {
+        margin-top: 40px;
+    }
+
+    .dashboard-container {
+        height: 427px;
+    }
+}

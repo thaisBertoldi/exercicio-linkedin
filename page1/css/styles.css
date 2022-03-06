@@ -177,7 +177,7 @@
   background-color: #fff;
   display: grid;
   grid-template-rows: 180px 180px;
-  max-width: 850px;
+  max-width: 100%;
 }
 .perfil-capa {
   background-image: url("../img/home-capa/capa.png");
@@ -188,10 +188,12 @@
   display: flex;
   justify-content: space-between;
   margin: 20px 30px 0px 30px;
+  max-width: 100%;
 }
 .background-upload {
   width: 36px;
   height: 36px;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -241,9 +243,11 @@
   display: grid;
   grid-template-columns: 170px auto;
   padding-left: 25px;
+  max-width: 100%;
 }
 .foto-perfil {
   margin-top: -20px;
+  max-width: 100%;
 }
 .dados-perfil {
   display: flex;
@@ -251,6 +255,7 @@
   row-gap: 15px;
   margin-left: 25px;
   margin-top: 25px;
+  max-width: 100%;
 }
 .nome-localizacao {
   display: flex;
@@ -298,11 +303,12 @@
 .informacoes {
   margin-top: 20px;
   display: grid;
-  max-width: 850px;
+  max-width: 100%;
   grid-template-rows: auto auto;
 }
 .informacoes-botoes {
   height: 50px;
+  max-width: 100%;
   display: flex;
   justify-content: start;
   align-items: flex-end;
@@ -357,7 +363,7 @@
   display: grid;
   grid-template-rows: auto auto auto;
   padding: 30px;
-  max-width: 850px;
+  max-width: 100%;
   margin-top: 20px;
   background-color: #fff;
 }
@@ -406,7 +412,7 @@
   display: grid;
   grid-template-rows: auto auto auto;
   padding: 30px;
-  max-width: 850px;
+  max-width: 100%;
   margin-top: 20px;
   background-color: #fff;
   row-gap: 25px;
@@ -414,10 +420,12 @@
 .conteudo-galeria-skills {
   display: flex;
   justify-content: space-between;
+  max-width: 100%;
 }
 .galeria-skills {
   width: 250px;
   height: 80px;
+  max-width: 100%;
   display: grid;
   grid-template-rows: auto auto;
   padding: 14px 20px 0px 20px;
@@ -425,6 +433,7 @@
 }
 .texto-galeria-skills {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .texto-galeria-skills h4 {

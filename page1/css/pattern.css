@@ -7,7 +7,7 @@
   --font-size-texto: 10px;
 }
 .container {
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0px 40px 40px 130px;
 }
 body {
