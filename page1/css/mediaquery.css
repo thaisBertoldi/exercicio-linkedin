@@ -121,4 +121,8 @@
         align-items: center;
         justify-content: center;
     }
+
+    .texto-profissional {
+        text-align: center;
+    }
 }
