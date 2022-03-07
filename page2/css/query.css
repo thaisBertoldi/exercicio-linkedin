@@ -276,9 +276,18 @@
     font-size: 20px;
   }
   .novo-artigo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 10px;
-    margin: 10px;
-    column-gap: 20px;
+    margin: 20px 0px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+
+  .novo-artigo .criar-novo-artigo {
+    width: 40%;
   }
   .novo-artigo button {
     font-size: 12px;
