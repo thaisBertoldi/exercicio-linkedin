@@ -1,19 +1,6 @@
 #pageDois .background-main {
   padding-top: 0px;
 }
-@media screen and (min-width: 1441px) {
-  .header {
-    justify-content: space-between;
-  }
-  .header .logo-linkedin,
-  .header .menu,
-  .header .pesquisar,
-  .header .user,
-  .header .other,
-  .header .vazio {
-    border: none;
-  }
-}
 .section-padrao-lateral {
   display: grid;
   padding: 25px 30px;
@@ -29,7 +16,9 @@
   align-items: center;
   height: 80px;
 }
-
+.menu-hamburguer {
+  display: none;
+}
 .logo-linkedin {
   width: 131px;
   height: 80px;
@@ -176,19 +165,22 @@
 }
 
 /* --- Colunas do Site --- */
-
+.conteudo-container-esquerdo {
+  display: flex;
+  column-gap: 40px;
+  margin-left: 130px;
+  margin-bottom: 40px;
+}
 .pagina-colunas {
   display: flex;
   background-color: #f7f9fb;
   padding-top: 40px;
+  justify-content: space-between;
 }
 
 /* --- new post --- */
 
 .container-1 {
-  /* width: 1440px; */
-  /*  height: auto; /* corrigir tamanho */
-  margin: 0px 40px 40px 130px;
   background-color: #f7f9fb;
 }
 
@@ -197,7 +189,6 @@
   flex-direction: column;
   background-color: #ffffff;
   width: 850px;
-  /*  height: 135px; */
 }
 
 .new-post {
@@ -210,7 +201,7 @@
   font-size: 12px;
   font-weight: bold;
   border-bottom: 1px solid #f4f4f4;
-  padding: 25px 751px 20px 30px;
+  padding: 25px 20px 20px 30px;
 }
 
 .caixa-post {
@@ -237,7 +228,6 @@
   flex-direction: column;
   align-items: center;
   background-color: #f7f9fb;
-  width: 850px;
   height: 80px;
   padding: 35px 0;
 }
@@ -289,7 +279,6 @@
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  width: 850px;
   height: 285px;
 }
 .posts-container {
@@ -447,7 +436,6 @@
   background-color: #e9f0f8;
   border-radius: 4px;
   padding: 7px 12px;
-  /*   margin-top: 20px; */
 }
 /* --- Footer --- */
 
@@ -576,8 +564,12 @@ footer h5 {
   max-width: 290px;
   background-color: #fff;
 }
+
 .foto-perfil-lateral {
   margin-top: -50px;
+}
+.foto-perfil-maior {
+  display: none;
 }
 .perfil-lateral-info {
   width: 100%;
@@ -695,4 +687,118 @@ footer h5 {
 .artigos-visualizacao {
   color: #181818;
   font-size: var(--font-size-texto);
+}
+
+/* chatbox */
+
+.chatbox {
+  padding: 8px;
+  min-width: 300px;
+  margin-right: 1%;
+  margin-bottom: 15%;
+  background-color: #fff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08),
+    0px 4px 4px rgba(0, 0, 0, 0.03);
+}
+
+.cabecalho-chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 47px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.informacoes-perfil {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.titulo-chatbox {
+  font-size: var(--font-size-subtitulo);
+  font-weight: bold;
+}
+.icones-chatbox {
+  display: flex;
+  column-gap: 16px;
+}
+.icones-chatbox i {
+  color: rgb(92, 92, 92, 0.7);
+  cursor: pointer;
+}
+.container-de-pesquisa i {
+  color: rgb(92, 92, 92, 0.7);
+}
+.pesquisar-chat {
+  padding: 8px 0px;
+}
+.container-de-pesquisa {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  background-color: #eef3f8;
+}
+
+.campo-de-pesquisa {
+  background-color: #eef3f8;
+  outline: none;
+}
+
+.container-de-pesquisa {
+  height: 30px;
+  display: flex;
+}
+.conversas-chat {
+  margin-top: 10px;
+  display: grid;
+  row-gap: 20px;
+  overflow-y: scroll;
+  max-height: 1800px;
+}
+
+.conversa {
+  display: grid;
+  grid-template-columns: 50px auto;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 8px;
+  margin-right: 15px;
+}
+.conteudo-chat {
+  display: grid;
+  grid-template-rows: auto auto;
+  margin-left: 8px;
+}
+.nome-data-conversa {
+  display: flex;
+  justify-content: space-between;
+}
+.responsavel-chat {
+  font-size: var(--font-size-subtitulo);
+  color: var(--cor-texto);
+}
+.nao-lida {
+  font-weight: bold;
+}
+.data-chat {
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.6);
+}
+.texto-conversa {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.resposta-chat {
+  font-size: 12px;
+  color: var(--cor-texto);
+}
+.botao-hastags,
+.botao-novo-artigo {
+  display: none;
 }

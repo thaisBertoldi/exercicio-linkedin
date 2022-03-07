@@ -8,9 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+
+    <!-- lib -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- css -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/pattern.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/query.css">
     <title>Linkedin</title>
 </head>
 
@@ -42,6 +47,7 @@
                         <img class="icone" src="./img/img-header/menu-notificacao.png" alt="">
                         <a href="#">NOTICES</a>
                     </li>
+
                 </ul>
             </nav>
             <div class="pesquisar">
@@ -77,410 +83,986 @@
                     <img src="./img/img-header/others.png" alt="" width="24" height="24">
                     OTHER
                 </div>
-                <div class="vazio"></div>
+                <div class="vazio">
 
+                </div>
             </div>
-
+            <div class="menu-hamburguer">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
     </header>
-    <div class="pagina-colunas">
-        <div class="container-1">
-            <div class="menu-esquerda-posts">
-                <div class="background-main">
-                    <div class="new-post">
-                        <div class="titulo-new-post">
-                            <p>NEW POST</p>
-                        </div>
-                        <div class="caixa-post">
-                            <div class="input-post">
-                                <input class="input" placeholder="What's on your mind?" id="pesquisar"></input>
-                            </div>
-                            <div class="botoes-post">
-                                <div>
-                                    <img src="./img/img-new-post/anexo.png" alt="">
+    <div class="background-main">
+        <div class="pagina-colunas">
+            <div class="conteudo-container-esquerdo">
+                <div class="container-1">
+                    <div class="menu-esquerda-posts">
+                        <div class="background-main">
+                            <div class="new-post">
+                                <div class="titulo-new-post">
+                                    <p>NEW POST</p>
                                 </div>
-                                <div>
-                                    <img src="./img/img-new-post/image.png" alt="">
-                                </div>
-                                <div>
-                                    <img src="./img/img-new-post/video.png" alt="">
-                                </div>
-                                <div>
-                                    <img src="./img/img-new-post/send.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="divisoria-container">
-                        <div class="titulo-centro">
-                            <div class="titulo-e-flecha">
-                                <p>SORT BY: <span class="azul">TRENDING</span></p>
-                                <img src="./img/img-new-post/flecha.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="posts-container primary">
-                        <div class="like-this-info">
-                            <p><span class="azul">Ted Bell, Annette Nguyen</span> and <span class="azul">Cody Hawkins</span> liked this</p>
-                            <div>
-                                <img src="./img/img-header/others.png" alt="">
-                            </div>
-                        </div>
-                        <div class="post-conteudo ">
-                            <div class="foto-user-post">
-                                <img src="./img/img-visitors/theresa.png" alt="">
-                                <div class="user-post">
-                                    <div class="user-post-nome">
-                                        <p>Theresa Steward</p>
+                                <div class="caixa-post">
+                                    <div class="input-post">
+                                        <input class="input" placeholder="What's on your mind?" id="pesquisar"></input>
                                     </div>
-                                    <div class="user-post-profissao">
-                                        <p>iOS developer</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="texto-post">
-                                <div>
-                                    <p class="text-gradient">What did the Dursleys care if Harry lost his place on the House Quidditch team because he hadn’t practiced all summer? What was it to the Dursleys if Harry went back to school without any of his homework done? The Dursleys were what wizards called Muggles (not a drop of magical blood in their veins).</p>
-                                </div>
-                                <div class="read-more">
-                                    <p>READ MORE</p>
-                                </div>
-                            </div>
-                            <div class="interacao-post">
-                                <div class="like-comment">
-                                    <div>
-                                        <img src="./img/img-new-post/like.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">42</p>
-                                    </div>
-                                    <div>
-                                        <img src="./img/img-new-post/comment.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">9</p>
-                                    </div>
-                                </div>
-                                <div class="share-post">
-                                    <div>
-                                        <img src="./img/img-new-post/share.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">SHARE</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="posts-container">
-                        <div class="like-this-info">
-                            <p><span class="azul">Audrey Alexander</span> comment this</p>
-                            <div>
-                                <img src="./img/img-header/others.png" alt="">
-                            </div>
-                        </div>
-                        <div class="post-conteudo">
-                            <div class="foto-user-post">
-                                <img src="./img/img-visitors/kyle.png" alt="">
-                                <div class="user-post">
-                                    <div class="user-post-nome">
-                                        <p>Kyle Fisher</p>
-                                    </div>
-                                    <div class="user-post-profissao">
-                                        <p>Product designer at Commandor Corp.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="texto-post">
-                                <div>
-                                    <p>How’s your day going, guys?</p>
-                                </div>
-                                <div class="image-post2">
-                                    <img src="./img/img-new-post/foto-post.png" alt="">
-                                </div>
-                            </div>
-                            <div class="interacao-post">
-                                <div class="like-comment">
-                                    <div>
-                                        <img src="./img/img-new-post/like-solid.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">12</p>
-                                    </div>
-                                    <div>
-                                        <img src="./img/img-new-post/comment.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">3</p>
-                                    </div>
-                                </div>
-                                <div class="share-post">
-                                    <div>
-                                        <img src="./img/img-new-post/share.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">SHARE</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="posts-container">
-                        <div class="like-this-info">
-                            <p>High rated post from your feed</p>
-                            <div>
-                                <img src="./img/img-header/others.png" alt="">
-                            </div>
-                        </div>
-                        <div class="post-conteudo">
-                            <div class="foto-user-post">
-                                <img src="./img/img-visitors/brandon.png" alt="">
-                                <div class="user-post">
-                                    <div class="user-post-nome">
-                                        <p>Brandon Wilson</p>
-                                    </div>
-                                    <div class="user-post-profissao">
-                                        <p>Senior UX designer</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="texto-post">
-                                <p class="titulo-post">There is some new guidelines for iOS</p>
-
-                                <div class="arquivos-pdf-post3">
-                                    <div class="primeira-parte-downloads">
+                                    <div class="botoes-post">
                                         <div>
-                                            <img src="./img/img-new-post/imagem-arquivo.png" alt="">
+                                            <img src="./img/img-new-post/anexo.png" alt="">
                                         </div>
-                                        <div class="informacoes-downloads">
-                                            <p class="titulo-informacao-download">iOS 11 guidelines for UX/UI designers</p>
-                                            <p>PDF file, 324 kb</p>
-                                        </div>
-                                    </div>
-                                    <div class="download-arquivo">
-                                        <img src="./img/img-new-post/download-cloud.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="arquivos-pdf-post3">
-                                    <div class="primeira-parte-downloads">
                                         <div>
-                                            <img src="./img/img-new-post/imagem-arquivo.png" alt="">
+                                            <img src="./img/img-new-post/image.png" alt="">
                                         </div>
-                                        <div class="informacoes-downloads">
-                                            <p class="titulo-informacao-download">iOS 11 guidelines for UX/UI designers</p>
-                                            <p>PDF file, 324 kb</p>
+                                        <div>
+                                            <img src="./img/img-new-post/video.png" alt="">
                                         </div>
-                                    </div>
-                                    <div class="download-arquivo">
-                                        <img src="./img/img-new-post/download-cloud.png" alt="">
+                                        <div>
+                                            <img src="./img/img-new-post/send.png" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="interacao-post">
-                                <div class="like-comment">
-                                    <div>
-                                        <img src="./img/img-new-post/like-solid.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">89</p>
-                                    </div>
-                                    <div>
-                                        <img src="./img/img-new-post/comment-solid.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">7</p>
+
+                            <div class="divisoria-container">
+                                <div class="titulo-centro">
+                                    <div class="titulo-e-flecha">
+                                        <p>SORT BY: <span class="azul">TRENDING</span></p>
+                                        <img src="./img/img-new-post/flecha.png" alt="">
                                     </div>
                                 </div>
-                                <div class="share-post">
+                            </div>
+
+                            <div class="posts-container primary">
+                                <div class="like-this-info">
+                                    <p><span class="azul">Ted Bell, Annette Nguyen</span> and <span class="azul">Cody Hawkins</span> liked this</p>
                                     <div>
-                                        <img src="./img/img-new-post/share.png" alt="">
+                                        <img src="./img/img-header/others.png" alt="">
                                     </div>
+                                </div>
+                                <div class="post-conteudo ">
+                                    <div class="foto-user-post">
+                                        <img src="./img/img-visitors/theresa.png" alt="">
+                                        <div class="user-post">
+                                            <div class="user-post-nome">
+                                                <p>Theresa Steward</p>
+                                            </div>
+                                            <div class="user-post-profissao">
+                                                <p>iOS developer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="texto-post">
+                                        <div>
+                                            <p class="text-gradient">What did the Dursleys care if Harry lost his place on the House Quidditch team because he hadn’t practiced all summer? What was it to the Dursleys if Harry went back to school without any of his homework done? The Dursleys were what wizards called Muggles (not a drop of magical blood in their veins).</p>
+                                        </div>
+                                        <div class="read-more">
+                                            <p>READ MORE</p>
+                                        </div>
+                                    </div>
+                                    <div class="interacao-post">
+                                        <div class="like-comment">
+                                            <div>
+                                                <img src="./img/img-new-post/like.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">42</p>
+                                            </div>
+                                            <div>
+                                                <img src="./img/img-new-post/comment.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">9</p>
+                                            </div>
+                                        </div>
+                                        <div class="share-post">
+                                            <div>
+                                                <img src="./img/img-new-post/share.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">SHARE</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="posts-container">
+                                <div class="like-this-info">
+                                    <p><span class="azul">Audrey Alexander</span> comment this</p>
                                     <div>
-                                        <p class="font-interacao-p">SHARE</p>
+                                        <img src="./img/img-header/others.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="post-conteudo">
+                                    <div class="foto-user-post">
+                                        <img src="./img/img-visitors/kyle.png" alt="">
+                                        <div class="user-post">
+                                            <div class="user-post-nome">
+                                                <p>Kyle Fisher</p>
+                                            </div>
+                                            <div class="user-post-profissao">
+                                                <p>Product designer at Commandor Corp.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="texto-post">
+                                        <div>
+                                            <p>How’s your day going, guys?</p>
+                                        </div>
+                                        <div class="image-post2">
+                                            <img src="./img/img-new-post/foto-post.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="interacao-post">
+                                        <div class="like-comment">
+                                            <div>
+                                                <img src="./img/img-new-post/like-solid.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">12</p>
+                                            </div>
+                                            <div>
+                                                <img src="./img/img-new-post/comment.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">3</p>
+                                            </div>
+                                        </div>
+                                        <div class="share-post">
+                                            <div>
+                                                <img src="./img/img-new-post/share.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">SHARE</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="posts-container">
+                                <div class="like-this-info">
+                                    <p>High rated post from your feed</p>
+                                    <div>
+                                        <img src="./img/img-header/others.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="post-conteudo">
+                                    <div class="foto-user-post">
+                                        <img src="./img/img-visitors/brandon.png" alt="">
+                                        <div class="user-post">
+                                            <div class="user-post-nome">
+                                                <p>Brandon Wilson</p>
+                                            </div>
+                                            <div class="user-post-profissao">
+                                                <p>Senior UX designer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="texto-post">
+                                        <p class="titulo-post">There is some new guidelines for iOS</p>
+
+                                        <div class="arquivos-pdf-post3">
+                                            <div class="primeira-parte-downloads">
+                                                <div>
+                                                    <img src="./img/img-new-post/imagem-arquivo.png" alt="">
+                                                </div>
+                                                <div class="informacoes-downloads">
+                                                    <p class="titulo-informacao-download">iOS 11 guidelines for UX/UI designers</p>
+                                                    <p>PDF file, 324 kb</p>
+                                                </div>
+                                            </div>
+                                            <div class="download-arquivo">
+                                                <img src="./img/img-new-post/download-cloud.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="arquivos-pdf-post3">
+                                            <div class="primeira-parte-downloads">
+                                                <div>
+                                                    <img src="./img/img-new-post/imagem-arquivo.png" alt="">
+                                                </div>
+                                                <div class="informacoes-downloads">
+                                                    <p class="titulo-informacao-download">iOS 11 guidelines for UX/UI designers</p>
+                                                    <p>PDF file, 324 kb</p>
+                                                </div>
+                                            </div>
+                                            <div class="download-arquivo">
+                                                <img src="./img/img-new-post/download-cloud.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="interacao-post">
+                                        <div class="like-comment">
+                                            <div>
+                                                <img src="./img/img-new-post/like-solid.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">89</p>
+                                            </div>
+                                            <div>
+                                                <img src="./img/img-new-post/comment-solid.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">7</p>
+                                            </div>
+                                        </div>
+                                        <div class="share-post">
+                                            <div>
+                                                <img src="./img/img-new-post/share.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">SHARE</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="posts-container">
+                                <div class="like-this-info">
+                                    <p>First post from <span class="azul">Audrey Alexander</span></p>
+                                    <div>
+                                        <img src="./img/img-header/others.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="post-conteudo">
+                                    <div class="foto-user-post">
+                                        <img src="./img/img-visitors/audrey.png" alt="">
+                                        <div class="user-post">
+                                            <div class="user-post-nome">
+                                                <p>Audrey Alexander</p>
+                                            </div>
+                                            <div class="user-post-profissao">
+                                                <p>Team lead at Google</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="texto-post">
+                                        <div>
+                                            <p>The bun runs along the road and meets a wolf. «Little bun, little bun, I want to eat you!» says the wolf. «I ran away from Grandfather, I ran away from Grandmother, I ran away from the hare. And I can run away from you, grey wolf!» says the bun and runs away.</p>
+                                        </div>
+                                    </div>
+                                    <div class="interacao-post">
+                                        <div class="like-comment">
+                                            <div>
+                                                <img src="./img/img-new-post/like.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">10</p>
+                                            </div>
+                                            <div>
+                                                <img src="./img/img-new-post/comment.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">0</p>
+                                            </div>
+                                        </div>
+                                        <div class="share-post">
+                                            <div>
+                                                <img src="./img/img-new-post/share.png" alt="">
+                                            </div>
+                                            <div>
+                                                <p class="font-interacao-p">SHARE</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="posts-container">
-                        <div class="like-this-info">
-                            <p>First post from <span class="azul">Audrey Alexander</span></p>
-                            <div>
-                                <img src="./img/img-header/others.png" alt="">
-                            </div>
-                        </div>
-                        <div class="post-conteudo">
-                            <div class="foto-user-post">
-                                <img src="./img/img-visitors/audrey.png" alt="">
-                                <div class="user-post">
-                                    <div class="user-post-nome">
-                                        <p>Audrey Alexander</p>
-                                    </div>
-                                    <div class="user-post-profissao">
-                                        <p>Team lead at Google</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="texto-post">
-                                <div>
-                                    <p>The bun runs along the road and meets a wolf. «Little bun, little bun, I want to eat you!» says the wolf. «I ran away from Grandfather, I ran away from Grandmother, I ran away from the hare. And I can run away from you, grey wolf!» says the bun and runs away.</p>
-                                </div>
-                            </div>
-                            <div class="interacao-post">
-                                <div class="like-comment">
-                                    <div>
-                                        <img src="./img/img-new-post/like.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">10</p>
-                                    </div>
-                                    <div>
-                                        <img src="./img/img-new-post/comment.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">0</p>
-                                    </div>
-                                </div>
-                                <div class="share-post">
-                                    <div>
-                                        <img src="./img/img-new-post/share.png" alt="">
-                                    </div>
-                                    <div>
-                                        <p class="font-interacao-p">SHARE</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+
+                <section class="container-2">
+                    <section class="perfil-lateral">
+                        <div class="perfil-lateral-capa">
+                            <img src="./img/foto-capa-lateral.png" alt="">
+                        </div>
+                        <div class="perfil-lateral-info">
+                            <div class="foto-perfil-lateral">
+                                <img class="foto-perfil-menor" src="./img/foto-perfil-lateral.png" alt="">
+                                <img class="foto-perfil-maior" src="./img/foto-perfil.png" alt="">
+                            </div>
+                            <div class="perfil-lateral-nome">
+                                <h3 class="perfil-lateral-info-titulo paragrafo">Dmitry Kargaev</h3>
+                                <p class="perfil-lateral-info-paragrafo">
+                                    Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects. Open to offers.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="novo-artigo section-padrao-lateral">
+                        <button class="criar-novo-artigo">
+                            write new article
+                        </button>
+                        <button class="criar-novo-artigo botao-hastags">
+                            Followed hastags
+                        </button>
+                        <button class="criar-novo-artigo botao-novo-artigo">
+                            Trending Articles
+                        </button>
+                    </section>
+
+                    <section class="meus-grupos-container section-padrao-lateral">
+                        <div class="editar-grupos">
+                            <p class="meus-grupos-botao">MY GROUPS</p>
+                            <p class="editar-meus-grupos-botao">EDIT LIST</p>
+                        </div>
+                        <div class="meus-grupos">
+                            <div class="grupo">
+                                <img src="./img/grupos/grupo01.png" alt="">
+                                <p class="paragrafo">Moscow State
+                                    Linguistical
+                                    University</p>
+                            </div>
+                            <div class="grupo">
+                                <img src="./img/grupos/grupo02.png" alt="">
+                                <p class="paragrafo">Digital freelancers
+                                    group</p>
+                            </div>
+                            <div class="grupo">
+                                <img src="./img/grupos/grupo03.png" alt="">
+                                <p class="paragrafo">Interaction
+                                    design
+                                    association</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="followed-hashtags section-padrao-lateral">
+                        <div class="titulo-followed-hashtags">
+                            <p>FOLLOWED HASHTAGS</p>
+                        </div>
+                        <div class="hashtags-followed-hashtags">
+                            <div class="hashtag">
+                                <p>#work</p>
+                            </div>
+                            <div class="hashtag">
+                                <p>#business</p>
+                            </div>
+                            <div class="hashtag">
+                                <p>#hr</p>
+                            </div>
+                            <div class="hashtag">
+                                <p>#userinterface</p>
+                            </div>
+                            <div class="hashtag">
+                                <p>#digital</p>
+                            </div>
+                            <div class="hashtag">
+                                <p>#userexperience</p>
+                            </div>
+                            <div class="hashtag">
+                                <p>#ux</p>
+                            </div>
+                            <div class="hashtag">
+                                <p>#ui</p>
+                            </div>
+                            <div class="hashtag">
+                                <p>#freelance</p>
+                            </div>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="articles section-padrao-lateral">
+                        <div class="meus-artigos">
+                            <p class="meus-artigos-botao">Trending articles</p>
+                        </div>
+
+                        <div class="conteudo-artigos">
+                            <div class="artigo">
+                                <img src="./img/artigos/artigo01.png" alt="">
+                                <div class="info-artigos">
+                                    <p class="paragrafo"> How I make cool designs?</p>
+                                    <p class="artigos-visualizacao">6,340 viewers</p>
+                                </div>
+                            </div>
+                            <div class="artigo">
+                                <img src="./img/artigos/artigo02.png" alt="">
+                                <div class="info-artigos">
+                                    <p class="paragrafo">Advices for young HR-manage</p>
+                                    <p class="artigos-visualizacao">8,123 viewers</p>
+                                </div>
+                            </div>
+                            <div class="artigo">
+                                <img src="./img/artigos/artigo03.png" alt="">
+                                <div class="info-artigos">
+                                    <p class="paragrafo">A little about usability testing</p>
+                                    <p class="artigos-visualizacao">8,123 viewers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </section>
             </div>
-
+            <section id="chat" class="chatbox section-padrao-lateral">
+                <div class="cabecalho-chat">
+                    <div class="informacoes-perfil">
+                        <img src="./img/mini-foto-perfil.png" alt="" width="32" height="32">
+                        <p class="titulo-chatbox">Mensagens</p>
+                    </div>
+                    <div class="icones-chatbox">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="pesquisar-chat">
+                    <div class="container-de-pesquisa">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="campo-de-pesquisa" type="text" placeholder="Pesquisar mensagens">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                </div>
+                <div class="conversas-chat">
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat nao-lida">Gabriel Gomes</p>
+                                <p class="data-chat">5 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat nao-lida">Gabriel: Obrigado!</p>
+                                <img src="./img/numero1-chat.png" alt="" width="16" height="16">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversa">
+                        <img src="./img/mini-foto-bate-papo.png" alt="" width="48" height="48">
+                        <div class="conteudo-chat">
+                            <div class="nome-data-conversa">
+                                <p class="responsavel-chat">Thais Bertoldi</p>
+                                <p class="data-chat">2 de mar.</p>
+                            </div>
+                            <div class="texto-conversa">
+                                <p class="resposta-chat">Thais: Vou fazer o pull</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-
-        <section class="container-2">
-            <section class="perfil-lateral">
-                <div class="perfil-lateral-capa">
-                    <img src="./img/foto-capa-lateral.png" alt="">
-                </div>
-                <div class="perfil-lateral-info">
-                    <div class="foto-perfil-lateral">
-                        <img src="./img/foto-perfil-lateral.png" alt="">
-                    </div>
-                    <div class="perfil-lateral-nome">
-                        <h3 class="perfil-lateral-info-titulo paragrafo">Dmitry Kargaev</h3>
-                        <p class="perfil-lateral-info-paragrafo">
-                            Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects. Open to offers.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="novo-artigo section-padrao-lateral">
-                <button class="criar-novo-artigo">
-                    write new article
-                </button>
-            </section>
-
-            <section class="meus-grupos-container section-padrao-lateral">
-                <div class="editar-grupos">
-                    <p class="meus-grupos-botao">MY GROUPS</p>
-                    <p class="editar-meus-grupos-botao">EDIT LIST</p>
-                </div>
-                <div class="meus-grupos">
-                    <div class="grupo">
-                        <img src="./img/grupos/grupo01.png" alt="">
-                        <p class="paragrafo">Moscow State
-                            Linguistical
-                            University</p>
-                    </div>
-                    <div class="grupo">
-                        <img src="./img/grupos/grupo02.png" alt="">
-                        <p class="paragrafo">Digital freelancers
-                            group</p>
-                    </div>
-                    <div class="grupo">
-                        <img src="./img/grupos/grupo03.png" alt="">
-                        <p class="paragrafo">Interaction
-                            design
-                            association</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="followed-hashtags section-padrao-lateral">
-                <div class="titulo-followed-hashtags">
-                    <p>FOLLOWED HASHTAGS</p>
-                </div>
-                <div class="hashtags-followed-hashtags">
-                    <div class="hashtag">
-                        <p>#work</p>
-                    </div>
-                    <div class="hashtag">
-                        <p>#business</p>
-                    </div>
-                    <div class="hashtag">
-                        <p>#hr</p>
-                    </div>
-                    <div class="hashtag">
-                        <p>#userinterface</p>
-                    </div>
-                    <div class="hashtag">
-                        <p>#digital</p>
-                    </div>
-                    <div class="hashtag">
-                        <p>#userexperience</p>
-                    </div>
-                    <div class="hashtag">
-                        <p>#ux</p>
-                    </div>
-                    <div class="hashtag">
-                        <p>#ui</p>
-                    </div>
-                    <div class="hashtag">
-                        <p>#freelance</p>
-                    </div>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="articles section-padrao-lateral">
-                <div class="meus-artigos">
-                    <p class="meus-artigos-botao">Trending articles</p>
-                </div>
-
-                <div class="conteudo-artigos">
-                    <div class="artigo">
-                        <img src="./img/artigos/artigo01.png" alt="">
-                        <div class="info-artigos">
-                            <p class="paragrafo"> How I make cool designs?</p>
-                            <p class="artigos-visualizacao">6,340 viewers</p>
-                        </div>
-                    </div>
-                    <div class="artigo">
-                        <img src="./img/artigos/artigo02.png" alt="">
-                        <div class="info-artigos">
-                            <p class="paragrafo">Advices for young HR-manage</p>
-                            <p class="artigos-visualizacao">8,123 viewers</p>
-                        </div>
-                    </div>
-                    <div class="artigo">
-                        <img src="./img/artigos/artigo03.png" alt="">
-                        <div class="info-artigos">
-                            <p class="paragrafo">A little about usability testing</p>
-                            <p class="artigos-visualizacao">8,123 viewers</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </section>
     </div>
-
     <footer>
         <div class="logo-linkedin-footer">
             <img src="./img/img-header/logo.png" alt="">
