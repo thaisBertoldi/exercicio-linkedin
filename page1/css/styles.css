@@ -350,9 +350,7 @@
   row-gap: 18px;
   margin: 10px 30px 35px 30px;
 }
-/* .informacoes-conteudo-texto .paragrafo {
-  max-width: 740px;
-} */
+
 .link-informacoes {
   color: var(--cor-principal);
   font-size: 12px;
